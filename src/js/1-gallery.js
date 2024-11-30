@@ -1,9 +1,7 @@
-const gallery = document.querySelector(".gallery");
+import SimpleLightbox from "simplelightbox";
+import "simplelightbox/dist/simple-lightbox.min.css";
 
-const galleryItems = images
-  .map(
-    ({ url, alt }) =>
-      `<li class="gallery-item"><img src="${url}" alt="${alt}" class="gallery-image"></li>`
-  )
-  .join("");
-gallery.insertAdjacentHTML("beforeend", galleryItems);
+
+const lightbox = new SimpleLightbox('.some-element a', { /* options */ });
+
+console.log(SimpleLightbox)
