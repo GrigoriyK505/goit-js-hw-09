@@ -50,6 +50,6 @@ body {
     color: #FFFFFF;
 }
 
-.sl-overlay-background {
-    color: rgba(0, 0, 0, 0);
+.sl-overlay {
+    background-color: #2E2F42 !important
 }
