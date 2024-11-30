@@ -34,3 +34,22 @@ body {
     display: block;
     border-radius: 8px;
 }
+
+.sl-wrapper .sl-navigation button.sl-next {
+    color: #FFFFFF;
+}
+.sl-wrapper .sl-navigation button.sl-prev {
+    color: #FFFFFF;
+}
+
+.sl-wrapper button.sl-close {
+    color: #FFFFFF;
+}
+
+.simple-lightbox div.sl-counter {
+    color: #FFFFFF;
+}
+
+.sl-overlay-background {
+    color: rgba(0, 0, 0, 0);
+}
